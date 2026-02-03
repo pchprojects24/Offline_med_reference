@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Tachycardia - ACLS - Offline Clinical Reference</title>
+  <title>Tachycardia (with pulse) - ACLS - Offline Clinical Reference</title>
   <link rel="stylesheet" href="../style.css">
 </head>
 <body>
@@ -22,13 +22,119 @@
     <section class="section">
       <div class="kicker">ACLS Algorithm</div>
       <h1>Tachycardia (with pulse)</h1>
-      <p class="subhead">Placeholder for tachycardia management.</p>
 
       <div class="content">
-        <p class="muted">Content coming soon.</p>
-      </div>
+        <h2>Entry criteria</h2>
+        <ul>
+          <li>Tachycardia with a palpable pulse (often HR ≥ 150/min), requiring evaluation and management</li>
+          <li>Treat the patient and stability first; heart rate alone is not the only trigger</li>
+        </ul>
 
-      <p class="foot">Future content: Tachycardia algorithm checklist (stable vs unstable).</p>
+        <h2>Immediate assessment (first moments)</h2>
+        <ul>
+          <li>ABCs: airway, breathing, oxygenation, circulation</li>
+          <li>Attach monitor/defib; obtain BP and SpO₂; establish IV access</li>
+          <li>12-lead ECG as soon as feasible (do not delay treatment if unstable)</li>
+          <li>Identify:
+            <ul>
+              <li>Is the patient unstable?</li>
+              <li>QRS width: narrow (&lt; 0.12 s) vs wide (≥ 0.12 s)</li>
+              <li>Rhythm regular vs irregular</li>
+            </ul>
+          </li>
+        </ul>
+
+        <h2>Decide: unstable vs stable</h2>
+        <ul>
+          <li>Unstable (treat now) if tachyarrhythmia is causing:
+            <ul>
+              <li>Hypotension</li>
+              <li>Acutely altered mental status</li>
+              <li>Signs of shock</li>
+              <li>Ischemic chest discomfort</li>
+              <li>Acute heart failure</li>
+            </ul>
+          </li>
+        </ul>
+
+        <h2>If UNSTABLE</h2>
+        <ul>
+          <li><strong>Immediate synchronized cardioversion</strong>
+            <ul>
+              <li>Provide analgesia/sedation if time permits (VERIFY local meds/doses)</li>
+              <li>If rhythm is irregular wide-complex and polymorphic, do NOT synchronize; treat as defibrillation per arrest/unstable polymorphic VT pathway (VERIFY local protocol)</li>
+            </ul>
+          </li>
+          <li><strong>After cardioversion:</strong>
+            <ul>
+              <li>Reassess ABCs, rhythm, and underlying cause</li>
+              <li>Obtain/confirm 12-lead ECG when feasible and treat precipitant</li>
+            </ul>
+          </li>
+        </ul>
+
+        <h2>If STABLE</h2>
+        <ul>
+          <li>Determine QRS width and regularity, then treat accordingly</li>
+        </ul>
+
+        <h3>A) Narrow QRS (&lt; 0.12 s)</h3>
+
+        <h4>1) Regular narrow-complex tachycardia (likely SVT)</h4>
+        <ul>
+          <li>Vagal maneuvers (if appropriate)</li>
+          <li>Adenosine:
+            <ul>
+              <li>6 mg rapid IV push + flush</li>
+              <li>If needed: 12 mg rapid IV push + flush</li>
+            </ul>
+          </li>
+          <li>If persists or diagnosis unclear: consider rate-control/antiarrhythmic strategy per rhythm and seek expert help as needed</li>
+        </ul>
+
+        <h4>2) Irregular narrow-complex tachycardia (likely AF/flutter with variable block)</h4>
+        <ul>
+          <li>Focus on rate control and underlying cause</li>
+          <li>Avoid adenosine as a "treatment" for irregular rhythms (it may help diagnosis briefly but does not treat AF)</li>
+          <li>If concern for pre-excitation (very rapid, irregular, changing QRS morphology) → avoid AV nodal blockers and seek urgent expert guidance (VERIFY local protocol)</li>
+        </ul>
+
+        <h3>B) Wide QRS (≥ 0.12 s)</h3>
+
+        <h4>1) Regular wide-complex tachycardia (likely monomorphic VT)</h4>
+        <ul>
+          <li>Consider adenosine ONLY if rhythm is regular and monomorphic and SVT with aberrancy is suspected</li>
+          <li>Antiarrhythmic infusion options for stable wide-complex tachycardia (choose ONE per local protocol):
+            <ul>
+              <li>Procainamide infusion (stop if hypotension, QRS widens significantly, arrhythmia suppressed, or max dose reached) (VERIFY local prep)</li>
+              <li>Amiodarone infusion (VERIFY local prep)</li>
+              <li>Sotalol infusion (avoid in prolonged QT) (VERIFY local prep)</li>
+            </ul>
+          </li>
+          <li>Seek expert consultation if any uncertainty</li>
+        </ul>
+
+        <h4>2) Irregular wide-complex tachycardia</h4>
+        <ul>
+          <li>Differential includes AF with aberrancy, pre-excited AF, or polymorphic VT</li>
+          <li>If polymorphic VT suspected or patient deteriorating → treat urgently (may require defibrillation) (VERIFY local protocol)</li>
+          <li>Avoid AV nodal blockers if pre-excited AF is suspected; seek expert consultation urgently</li>
+        </ul>
+
+        <h2>Concurrent priorities (all stable patients)</h2>
+        <ul>
+          <li>Treat precipitating causes (e.g., hypoxia, fever/sepsis, pain, dehydration, stimulant/drug effect, electrolyte abnormalities, ischemia)</li>
+          <li>Correct major K+/Mg2+ derangements if present (VERIFY local targets)</li>
+          <li>If any clinical deterioration → treat as UNSTABLE immediately</li>
+        </ul>
+
+        <h2>Exit paths</h2>
+        <ul>
+          <li><strong>Rhythm controlled and patient stable</strong> → observe, investigate cause, disposition/consultation as appropriate</li>
+          <li><strong>Unstable at any point</strong> → synchronized cardioversion (or defibrillation for polymorphic/irregular wide-complex as indicated) and escalate</li>
+          <li><strong>Deteriorates to cardiac arrest</strong> → transition to arrest algorithms</li>
+        </ul>
+      </div>
     </section>
   </main>
 </body>
