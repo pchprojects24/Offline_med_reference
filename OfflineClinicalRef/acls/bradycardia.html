@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Bradycardia - ACLS - Offline Clinical Reference</title>
+  <title>Bradycardia (with pulse) - ACLS - Offline Clinical Reference</title>
   <link rel="stylesheet" href="../style.css">
 </head>
 <body>
@@ -22,13 +22,102 @@
     <section class="section">
       <div class="kicker">ACLS Algorithm</div>
       <h1>Bradycardia (with pulse)</h1>
-      <p class="subhead">Placeholder for bradycardia management.</p>
 
       <div class="content">
-        <p class="muted">Content coming soon.</p>
-      </div>
+        <h2>Entry criteria</h2>
+        <ul>
+          <li>Bradycardia with a palpable pulse (typically HR &lt; 50/min) AND concern for clinical instability</li>
+          <li>Treat the patient, not the number</li>
+        </ul>
 
-      <p class="foot">Future content: Bradycardia algorithm checklist.</p>
+        <h2>Immediate assessment</h2>
+        <ul>
+          <li>ABCs: airway, breathing, oxygenation, circulation</li>
+          <li>Attach monitor/defib; obtain BP and SpO₂</li>
+          <li>Establish IV access</li>
+          <li>12-lead ECG as soon as feasible (do not delay treatment if unstable)</li>
+        </ul>
+
+        <h2>Decide: symptomatic (unstable) vs not</h2>
+        <ul>
+          <li>If NO signs of poor perfusion → monitor, evaluate cause, treat underlying issue</li>
+          <li>If symptomatic/unstable (treat now), examples:
+            <ul>
+              <li>Hypotension</li>
+              <li>Altered mental status</li>
+              <li>Signs of shock</li>
+              <li>Ischemic chest discomfort</li>
+              <li>Acute heart failure</li>
+            </ul>
+          </li>
+        </ul>
+
+        <h2>Core actions for symptomatic/unstable bradycardia</h2>
+
+        <h3>1) Supportive care</h3>
+        <ul>
+          <li>Maintain airway; give oxygen as needed</li>
+          <li>Consider fluid bolus if appropriate (e.g., relative hypovolemia)</li>
+          <li>Prepare for pacing early if high-grade block suspected or rapid deterioration</li>
+        </ul>
+
+        <h3>2) First-line medication</h3>
+        <ul>
+          <li><strong>Atropine IV</strong>
+            <ul>
+              <li>1 mg IV bolus</li>
+              <li>Repeat every 3–5 minutes as needed</li>
+              <li>Max total 3 mg</li>
+            </ul>
+          </li>
+          <li>If atropine is unlikely to work (e.g., high-grade AV block) → move early to pacing and/or infusion support</li>
+        </ul>
+
+        <h3>3) If atropine ineffective OR patient is crashing</h3>
+        <ul>
+          <li><strong>Transcutaneous pacing (TCP)</strong>
+            <ul>
+              <li>Apply pads, start pacing per device workflow</li>
+              <li>Provide analgesia/sedation as clinically appropriate if time permits</li>
+            </ul>
+          </li>
+          <li><strong>Vasopressor/inotrope infusion support</strong> (choose ONE per local protocol):
+            <ul>
+              <li>Epinephrine infusion: 2–10 mcg/min (titrate to response) [VERIFY local range/prep]</li>
+              <li>Dopamine infusion: 5–20 mcg/kg/min (titrate to response) [VERIFY local range/prep]</li>
+            </ul>
+          </li>
+        </ul>
+
+        <h2>Concurrent priorities (while treating)</h2>
+        <ul>
+          <li>Identify and correct reversible causes:
+            <ul>
+              <li>Hypoxia</li>
+              <li>Hypothermia</li>
+              <li>Drug/toxin effect (beta-blockers, calcium channel blockers, digoxin, opioids/sedatives)</li>
+              <li>Electrolytes (e.g., hyperkalemia)</li>
+              <li>Myocardial ischemia/infarction</li>
+              <li>Increased vagal tone</li>
+              <li>Conduction disease / high-grade AV block</li>
+            </ul>
+          </li>
+          <li>Review ECG for:
+            <ul>
+              <li>Sinus bradycardia vs junctional rhythm</li>
+              <li>AV blocks (especially 2nd-degree type II or 3rd-degree)</li>
+              <li>Wide QRS brady rhythms suggesting infranodal disease</li>
+            </ul>
+          </li>
+        </ul>
+
+        <h2>Exit paths</h2>
+        <ul>
+          <li><strong>Stabilized and symptoms resolve</strong> → monitor, treat underlying cause, disposition/consult as appropriate</li>
+          <li><strong>Persistent instability despite atropine</strong> → pacing and/or infusion; early escalation/consult</li>
+          <li><strong>Deteriorates to cardiac arrest</strong> → transition to arrest algorithm</li>
+        </ul>
+      </div>
     </section>
   </main>
 </body>
