@@ -19,16 +19,54 @@
 
   <main class="wrap">
     <section class="section">
-      <div class="kicker">Section</div>
-      <h1>Admin / Quick Reference</h1>
-      <p class="subhead">Administrative references and quick lookups.</p>
+      <div class="kicker">Review</div>
+      <h1>Coverage Review &amp; Fill Plan</h1>
+      <p class="subhead">Current information gaps and a proposed fill order. No new clinical content has been added yet.</p>
 
       <div class="content">
-        <p class="muted">Content coming soon.</p>
+        <h3>Current coverage snapshot</h3>
+        <ul>
+          <li><strong>ACLS:</strong> 6 core adult algorithms plus 6 special-situation pages are already available.</li>
+          <li><strong>Medications:</strong> 97 medication reference pages are available.</li>
+          <li><strong>Procedures:</strong> 12 procedure pages are available.</li>
+          <li><strong>Placeholder-only sections:</strong> Trauma / ATLS, Shipboard / At-Sea, Evacuation / Escalation, Environmental / Operational Medicine, and Admin / Quick Reference still lack reference content.</li>
+        </ul>
+
+        <div class="rule"></div>
+
+        <h3>Confirmed information gaps</h3>
+        <ol>
+          <li><strong>Trauma / ATLS:</strong> only a placeholder page exists, so there is no offline primary survey, secondary survey, or trauma checklist content yet.</li>
+          <li><strong>Evacuation / Escalation:</strong> there is no offline guidance yet for MEDEVAC triggers, communication handoff structure, or escalation criteria.</li>
+          <li><strong>Shipboard / At-Sea:</strong> maritime-specific constraints, telemedicine workflows, and resource-limited care guidance are not yet present.</li>
+          <li><strong>Environmental / Operational:</strong> heat/cold injury, altitude, diving, and toxicology topics are still missing.</li>
+          <li><strong>Admin / Quick Reference:</strong> quick tables, contact workflows, and compact calculation aids are not yet available.</li>
+          <li><strong>Documentation mismatch:</strong> the repository README still describes some already-populated areas as future or placeholder content, so the project inventory is not fully up to date.</li>
+          <li><strong>Offline source depth:</strong> many medication and procedure pages end with online-only reference links, so deeper source material is not fully available without connectivity.</li>
+        </ol>
+
+        <div class="rule"></div>
+
+        <h3>Proposed fill plan (for review before execution)</h3>
+        <ol>
+          <li><strong>Phase 1 — highest-value safety coverage:</strong> add concise Trauma / ATLS and Evacuation / Escalation checklists first, because they close major offline decision-support gaps.</li>
+          <li><strong>Phase 2 — operational context:</strong> add Shipboard / At-Sea and Environmental / Operational quick references focused on scenarios likely to be encountered in remote settings.</li>
+          <li><strong>Phase 3 — rapid admin tools:</strong> add the Admin / Quick Reference section with contact workflows, compact tables, and small calculation aids that fit the current mobile-first layout.</li>
+          <li><strong>Phase 4 — cleanup and consistency:</strong> update README inventory, standardize section status labels, and flag where source material is still online-only.</li>
+        </ol>
+
+        <div class="rule"></div>
+
+        <h3>Review guardrails</h3>
+        <ul>
+          <li>Keep all future additions offline-safe: relative links only, no external scripts, no dependency on network access.</li>
+          <li>Add content incrementally by section so each phase can be reviewed before broader expansion.</li>
+          <li>Preserve the existing concise checklist style used by the ACLS, medication, and procedure pages.</li>
+        </ul>
       </div>
 
       <p class="foot">
-        Future content: Contact lists, reference tables, quick calculations.
+        Planning artifact only — no gap-filling content from this plan has been implemented yet.
       </p>
     </section>
   </main>
